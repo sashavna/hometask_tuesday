@@ -1,16 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 [data-theme='1'] {
     --color: #000000;
     --background: #FFFFFF;
+
+    .select {
+        background-color: #FFFFFF;
+        color: #000000;
+        background-image: url('../../image/black.png');
+    }
 }
 
 [data-theme='2'] {
     --color: #000000;
     --background: #DDEEFF;
+
+    .select {
+        background-color: #DDEEFF;
+        color: #000000;
+        background-image: url('../../image/black.png');
+    }
+
+
 }
 
 [data-theme='3'] {
     --color: #FFFFFF;
     --background: #212A34;
+
+    .select {
+        background-color: #212A34;
+        color: #FFFFFF;
+        background-image: url('../../image/Layer2.png');
+    }
+    
 }
 
 html {
@@ -19,5 +42,32 @@ html {
 }
 
 .select {
+    appearance: none;
+    font-family: Montserrat, sans-serif;
+    width: 171px;
+    height: 36px;
+    padding: 0 10px 0 10px;
+    border: 1px solid #323232;
+
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+
+
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    text-transform: capitalize;
+    /* position: relative; */
+
+
+
 
 }
+
+/* .select::after {
+    content: '';
+    position: absolute;
+    background-image: url('../../image/Layer2.png');
+    background-repeat: no-repeat;
+    background-color: #000000;
+} */

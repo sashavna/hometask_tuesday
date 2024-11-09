@@ -1,20 +1,35 @@
 .input:focus {
+    outline: 2px solid #00ddff;
 }
 
 .input {
+    width: 372px;
+    height: 36px;
+    border: 2px solid #ccc;
+    border-radius: 2px;
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
 }
 
 .superInput {
+    border: 2px solid #ccc;
 }
 
 .errorInput {
+    border: 2px solid #ff0000;
 }
 
 .errorInput:focus {
+    border: 2px solid #ff0000;
 }
 
 .error {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    color: #cc1439;
 }

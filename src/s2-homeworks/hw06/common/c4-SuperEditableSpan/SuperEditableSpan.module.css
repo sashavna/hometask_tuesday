@@ -1,11 +1,27 @@
 .spanBlock {
+    display: flex;
+    column-gap: 10px;
 }
 
 .span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #0080ff;
 }
 
 .input {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    padding: 8px 24px 0px;
+    width: 274px;
+    height: 36px;
+    stroke: #D1D1D1;
 }
 
 .pen {
+    height: 24px;
+    width: 24px;
 }

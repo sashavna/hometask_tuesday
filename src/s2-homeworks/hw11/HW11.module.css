@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .container {
+    /* margin-left: 70px; */
 }
 
 .wrapper {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .number {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    color: #000;
 }
+
+/* .number:last-of-type {
+    margin-left: 195px;
+    color: blue;
+} */
